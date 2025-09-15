@@ -4,9 +4,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/frontend"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
+      interval: "monthly"
     open-pull-requests-limit: 10
     reviewers:
       - "roadji"
@@ -24,42 +22,13 @@ updates:
         update-types: ["version-update:semver-major"]
       - dependency-name: "next"
         update-types: ["version-update:semver-major"]
-
-  # Backend dependencies - UPDATED CONFIGURATION
-  - package-ecosystem: "pip"
-    directory: "/backend"
-    schedule:
-      interval: "weekly"
-      day: "tuesday"  # Changed to Tuesday to spread the load
-      time: "09:00"
-    open-pull-requests-limit: 15  # Increased limit to handle backlog
-    reviewers:
-      - "roadji"
-    assignees:
-      - "roadji"
-    commit-message:
-      prefix: "backend"
-      include: "scope"
-    labels:
-      - "dependencies"
-      - "backend"
-    ignore:
-      # Only ignore truly breaking major updates for core framework packages
-      - dependency-name: "flask"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "sqlalchemy"
-        update-types: ["version-update:semver-major"]
-      # Allow other packages to update more freely, but ignore known problematic ones
-      - dependency-name: "celery"
-        update-types: ["version-update:semver-major"]  # Celery major updates can be breaking
+  
 
   # GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "09:00"
+      interval: "monthly"
     open-pull-requests-limit: 5
     reviewers:
       - "roadji"
