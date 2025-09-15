@@ -1,10 +1,16 @@
 const path = require('path')
 
 /** @type {import('next').NextConfig} */
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 const nextConfig = {
   reactStrictMode: true,
   // Enable static export
   output: 'export',
+  // Serve under a sub-path when deploying to GitHub Pages project site
+  basePath: basePath || undefined,
+  assetPrefix: basePath || undefined,
+  trailingSlash: true,
   images: {
     // For static export, disable image optimization
     unoptimized: true,
