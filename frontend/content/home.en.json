@@ -1,19 +1,24 @@
 {
   "page_content": {
     "hero": {
-      "title": "Discover the World with Maxthon",
-      "subtitle": "Unforgettable study tours and cultural exchanges."
+      "title": "Explore the world with Maxthon Universal Exchange Centre",
+      "subtitle": "Experience unforgettable study tours and cultural exchanges."
     }
   },
   "features": [
-    {"id": 1, "title": "20 Years of Expertise", "description": "Trusted study tour planners"}
+    {"id": 1, "title": "Licensed and Professional", "description": "A fully licensed travel agency with a professional team and comprehensive insurance protection."},
+    {"id": 2, "title": "Experienced Team", "description": "A specialist team with years of experience organizing successful exchange programmes."},
+    {"id": 3, "title": "Global Network", "description": "Strong partnerships with schools and institutions across Asia and beyond."}
   ],
   "about_content": {
-    "hero": {"title": "About Us", "subtitle": "Our mission and commitment"},
-    "mission": {"title": "Our Mission", "content": "Bridging cultures through meaningful exchanges."}
+    "hero": {"title": "About Us", "subtitle": "Learn more about our mission and commitment to international exchange"},
+    "mission": {"title": "Our Mission", "content": "For many years, Maxthon Universal Exchange Centre has delivered high‑quality study tours for universities, secondary and primary schools, and social service organisations in Hong Kong. Through travel, participants experience, feel, learn, share and internalise diverse learning elements. We are committed to providing a rich and varied learning process so that students can explore local customs and cultural characteristics across regions, integrating the idea of ‘learning through play and travelling through learning’ into every journey. This enriches knowledge, broadens horizons and helps students set their sights on the global stage.\n\nWe have extensive experience organising themed study tours and have long been highly regarded by the education sector. Schools can define clear study tour goals and plans with us according to their needs and themes. Our professional team will make meticulous arrangements and help you coordinate the entire journey. Understanding the workload and needs of educators, we provide reliable, worry‑free arrangements to help you plan an efficient and truly well‑rounded trip."}
   },
   "about_services": [
-    {"id": 1, "title": "Professional Planning", "description": "Itineraries designed by experts"}
+    {"id": 1, "title": "Educational Travel", "description": "Carefully designed programmes that blend learning with cultural immersion – ideal for schools and educational organisations."},
+    {"id": 2, "title": "Cultural Exchange Programmes", "description": "Programmes that foster cross‑cultural understanding and international friendships among students."},
+    {"id": 3, "title": "Tailor‑made Itineraries", "description": "Custom plans crafted to meet your specific educational goals and cultural interests."},
+    {"id": 4, "title": "Professional Support", "description": "End‑to‑end support from planning to execution and follow‑up."}
   ],
   "all_tours": []
 }
