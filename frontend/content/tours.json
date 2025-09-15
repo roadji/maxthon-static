@@ -1,0 +1,38 @@
+{
+  "zh": [
+    {
+      "id": 1,
+      "title": "日本東京文化交流遊學團",
+      "description": "深入體驗日本文化與教育，參觀學校與歷史名勝。",
+      "duration": "6 days",
+      "price": 8999,
+      "image": "/images/logo_RGB.png",
+      "category": "Cultural",
+      "location": "東京，日本",
+      "tags": ["文化", "城市"],
+      "learningOutcomes": ["跨文化交流", "歷史認識"],
+      "itinerary": [
+        {"day": 1, "title": "出發與抵達", "activities": [{"time": "AM", "description": "出發前往東京"}]} 
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": 1,
+      "title": "Tokyo Cultural Exchange Tour",
+      "description": "Experience Japanese culture and education, visit schools and landmarks.",
+      "duration": "6 days",
+      "price": 8999,
+      "image": "/images/logo_RGB.png",
+      "category": "Cultural",
+      "location": "Tokyo, Japan",
+      "tags": ["Cultural", "City"],
+      "learningOutcomes": ["Intercultural Communication", "Historical Awareness"],
+      "itinerary": [
+        {"day": 1, "title": "Departure & Arrival", "activities": [{"time": "AM", "description": "Fly to Tokyo"}]}
+      ]
+    }
+  ]
+}
+
+

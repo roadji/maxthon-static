@@ -1,0 +1,11 @@
+# Deployment
+.vercel
+
+# Build artifacts and cache
+.next/
+.swc/
+tsconfig.tsbuildinfo
+
+# Development documentation
+*_ANALYSIS.md
+*_GUIDE.md

@@ -1,0 +1,20 @@
+# Build directories
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Generated files
+package-lock.json
+*.min.js
+*.min.css
+
+# Test files
+coverage/
+
+# Other
+.DS_Store
+*.log 

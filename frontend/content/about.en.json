@@ -1,0 +1,11 @@
+{
+  "page_content": {
+    "hero": {"title": "About Us", "subtitle": "Our mission and commitment"},
+    "mission": {"title": "Our Mission", "content": "Bridging cultures through meaningful exchanges."}
+  },
+  "services": [
+    {"id": 1, "title": "Professional Planning", "description": "Itineraries designed by experts"}
+  ]
+}
+
+

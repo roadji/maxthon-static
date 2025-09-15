@@ -1,0 +1,21 @@
+{
+  "page_content": {
+    "hero": {
+      "title": "Discover the World with Maxthon",
+      "subtitle": "Unforgettable study tours and cultural exchanges."
+    }
+  },
+  "features": [
+    {"id": 1, "title": "20 Years of Expertise", "description": "Trusted study tour planners"}
+  ],
+  "about_content": {
+    "hero": {"title": "About Us", "subtitle": "Our mission and commitment"},
+    "mission": {"title": "Our Mission", "content": "Bridging cultures through meaningful exchanges."}
+  },
+  "about_services": [
+    {"id": 1, "title": "Professional Planning", "description": "Itineraries designed by experts"}
+  ],
+  "all_tours": []
+}
+
+
